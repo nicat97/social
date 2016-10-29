@@ -298,49 +298,97 @@ body {
     color: #7f7f7f;
     margin: 5px 10px 0px 0px; }
 #headerA .messages {
-  min-height: 500px;
+  height: 650px;
   width: 100%;
   background-color: white; }
+  #headerA .messages .active {
+    background-color: #30BFFE; }
+    #headerA .messages .active h6 {
+      color: white; }
+    #headerA .messages .active h5 {
+      color: white !important; }
   #headerA .messages .leftMsg {
     overflow: scroll;
-    height: 430px; }
+    height: 600px; }
     #headerA .messages .leftMsg a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: black; }
       #headerA .messages .leftMsg a .recent {
-        background-color: #30BFFE;
         height: 60px;
-        overflow: hidden; }
+        overflow: hidden;
+        border: 1px solid #30BFFE;
+        border-radius: 25px; }
         #headerA .messages .leftMsg a .recent .profileImg {
           width: 50px;
           height: 50px;
-          margin-top: 5px; }
+          margin-top: 5px;
+          border-radius: 100%; }
         #headerA .messages .leftMsg a .recent h6 {
           font-size: 15px;
           margin-top: 5px;
           margin-left: 5px;
-          color: white;
-          font-weight: 300; }
+          font-weight: 500;
+          margin-top: 10px; }
         #headerA .messages .leftMsg a .recent h5 {
           font-size: 14px;
           margin-left: 5px;
-          color: white;
+          color: #90949c;
           font-weight: 200;
           margin-bottom: 5px;
           opacity: .9; }
+    #headerA .messages .leftMsg a:hover {
+      color: white; }
+      #headerA .messages .leftMsg a:hover .recent {
+        background-color: #30BFFE; }
+        #headerA .messages .leftMsg a:hover .recent h5 {
+          color: white; }
   #headerA .messages .rightMsg {
     overflow: scroll;
-    height: 450px;
+    height: 500px;
     position: relative; }
+    #headerA .messages .rightMsg a {
+      text-decoration: none; }
+      #headerA .messages .rightMsg a h4 {
+        font-weight: 300;
+        font-size: 22px;
+        color: #30BFFE; }
+    #headerA .messages .rightMsg span {
+      color: #90949c; }
+    #headerA .messages .rightMsg .gelenSms {
+      margin-bottom: 10px;
+      margin-top: 10px; }
+      #headerA .messages .rightMsg .gelenSms img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin-top: 5px; }
+      #headerA .messages .rightMsg .gelenSms p {
+        color: white;
+        background-color: #30BFFE;
+        border-radius: 20px;
+        display: inline-block;
+        padding: 10px;
+        font-weight: 300; }
+    #headerA .messages .rightMsg .gedenSms {
+      padding-top: 10px;
+      font-weight: 300; }
+      #headerA .messages .rightMsg .gedenSms p {
+        color: white;
+        background-color: #30BFFE;
+        padding: 10px;
+        border-radius: 20px; }
     #headerA .messages .rightMsg .sendMsg {
-      position: absolute;
+      position: fixed;
       bottom: 0px; }
       #headerA .messages .rightMsg .sendMsg textarea {
         resize: none;
         height: 40px;
         width: 655px;
-        border-radius: 5px;
+        border-radius: 15px;
         border: 1px solid #30BFFE;
-        padding: 5px; }
+        padding: 10px; }
+      #headerA .messages .rightMsg .sendMsg textarea:focus {
+        outline: none; }
     #headerA .messages .rightMsg .send {
       margin-bottom: 30px;
       padding-left: 5px; }
