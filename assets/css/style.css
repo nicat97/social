@@ -1,7 +1,426 @@
 body {
   background-color: #f5f5f5;
   position: relative; }
+  body #login {body {
+  background-color: #f5f5f5;
+  position: relative; }
   body #login {
+    min-height: 680px;
+    background-image: url("../../images/img1.jpg");
+    background-size: cover; }
+    body #login .login-sec {
+      width: 400px;
+      height: 420px;
+      background-color: #302e2e;
+      opacity: 0.9;
+      margin-left: 57px; }
+      body #login .login-sec .row h5 {
+        color: white;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 40px; }
+      body #login .login-sec .row input {
+        width: 350px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background: #424242;
+        height: 40px;
+        border: none;
+        padding-left: 10px;
+        color: white;
+        opacity: 0.7;
+        font-weight: 200; }
+      body #login .login-sec .row button {
+        margin-left: 43px;
+        border: none;
+        font-weight: 200;
+        background-color: #009bf8;
+        border-radius: 15px;
+        width: 100px;
+        color: white;
+        transition: all .5s ease; }
+      body #login .login-sec .row button:hover {
+        background-color: black;
+        transition: all .5s ease; }
+  body #footter {
+    background-color: #302e2e;
+    opacity: 0.9;
+    min-height: 50px;
+    width: 100%;
+    bottom: 0px; }
+    body #footter .onlineUsers {
+      height: 40px; }
+      body #footter .onlineUsers a {
+        text-decoration: none;
+        margin-left: 10px; }
+        body #footter .onlineUsers a img {
+          margin-top: 5px;
+          height: 100%;
+          border-radius: 100%; }
+
+#nav {
+  min-height: 50px; }
+  #nav .navbar {
+    background-color: #368e09; }
+    #nav .navbar a {
+      text-decoration: none;
+      float: left; }
+      #nav .navbar a h5 {
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 15px;
+        margin-left: 40px; }
+        #nav .navbar a h5 i {
+          margin-right: 7px; }
+    #nav .navbar .dropdown button {
+      background-color: transparent;
+      width: 30px; }
+      #nav .navbar .dropdown button .btnImg {
+        width: 30px;
+        height: 30px; }
+        #nav .navbar .dropdown button .btnImg img {
+          width: 100%;
+          height: 100%;
+          border-radius: 100%;
+          float: left;
+          margin-right: 5px;
+          margin-left: 60px; }
+        #nav .navbar .dropdown button .btnImg p {
+          color: white;
+          font-size: 15px;
+          font-weight: 200;
+          display: inline-block;
+          margin-right: 3px;
+          margin-top: 5px; }
+        #nav .navbar .dropdown button .btnImg .caret {
+          margin-top: 8px; }
+    #nav .navbar .dropdown ul {
+      margin-top: 5px;
+      margin-left: 20px; }
+      #nav .navbar .dropdown ul li a {
+        width: 100%;
+        border-bottom: 1px solid #efefef;
+        font-weight: 300; }
+      #nav .navbar .dropdown ul li a:hover {
+        color: #3094e4; }
+
+#headerA .container-fluid {
+  padding: 0px; }
+#headerA .left {
+  background-color: #212121;
+  height: 100%;
+  position: fixed; }
+  #headerA .left .profile {
+    min-height: 150px;
+    border-bottom: 1px solid #2e2e2e; }
+    #headerA .left .profile .profileImg {
+      width: 110px;
+      height: 110px; }
+      #headerA .left .profile .profileImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        margin-left: 35px; }
+    #headerA .left .profile h4 {
+      font-size: 24px;
+      margin-top: 5px;
+      font-weight: 400;
+      color: white; }
+  #headerA .left .about {
+    min-height: 110px;
+    border-bottom: 1px solid #2e2e2e; }
+    #headerA .left .about h6 {
+      color: #4687ce;
+      font-size: 20px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 300; }
+    #headerA .left .about ul {
+      list-style-type: none;
+      padding: 0px; }
+      #headerA .left .about ul li a {
+        color: #757575;
+        text-decoration: none;
+        margin-bottom: 5px; }
+        #headerA .left .about ul li a i {
+          margin-right: 10px; }
+  #headerA .left .trends {
+    min-height: 110px;
+    border-bottom: 1px solid #2e2e2e; }
+    #headerA .left .trends h6 {
+      color: #4687ce;
+      font-size: 20px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 300; }
+    #headerA .left .trends ul {
+      list-style-type: none;
+      padding: 0px; }
+      #headerA .left .trends ul li {
+        min-height: 60px;
+        background-color: #262626;
+        margin-bottom: 0.5px;
+        width: 176px; }
+        #headerA .left .trends ul li a {
+          margin-left: 5px;
+          color: #757575;
+          text-decoration: none;
+          margin-bottom: 5px; }
+          #headerA .left .trends ul li a i {
+            margin-right: 10px; }
+        #headerA .left .trends ul li p {
+          color: #757575;
+          font-size: 10px; }
+      #headerA .left .trends ul li:hover {
+        background-color: #212121; }
+#headerA .whatsNew {
+  height: 162px;
+  border: 1px solid #e2e9e6;
+  background: white; }
+  #headerA .whatsNew .rowTop {
+    margin: 0px;
+    background-color: #368e09; }
+    #headerA .whatsNew .rowTop h6 {
+      font-size: 18px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 200;
+      color: white;
+      margin-left: 10px; }
+  #headerA .whatsNew textarea {
+    border: none;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #e2e9e6;
+    padding-left: 10px;
+    resize: none; }
+  #headerA .whatsNew a {
+    text-decoration: none; }
+    #headerA .whatsNew a i {
+      color: #e2e9e6;
+      font-size: 18px;
+      margin: 5px;
+      padding-left: 5px; }
+    #headerA .whatsNew a i:hover {
+      color: #4687ce; }
+  #headerA .whatsNew button {
+    background-color: #368e09;
+    border-radius: none;
+    color: white;
+    font-weight: 200;
+    height: 25px;
+    padding: 3px 7px 3px 7px;
+    margin-bottom: 2px;
+    margin-right: 5px; }
+  #headerA .whatsNew button:hover {
+    background-color: #365899; }
+#headerA a {
+  text-decoration: none; }
+  #headerA a .reklam {
+    min-height: 350px;
+    width: 240px;
+    border: 1px solid #e2e9e6;
+    position: fixed;
+    background: white; }
+    #headerA a .reklam .reklamTop {
+      background-color: #368e09; }
+      #headerA a .reklam .reklamTop h6 {
+        font-size: 18px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 200;
+        color: white;
+        margin-left: 10px; }
+    #headerA a .reklam .reklamImg {
+      width: 230px;
+      height: 170px;
+      margin: 5px; }
+      #headerA a .reklam .reklamImg img {
+        width: 100%;
+        height: 100%; }
+    #headerA a .reklam .reklamDesc h6 {
+      font-size: 18px;
+      font-weight: 400;
+      color: #368e09;
+      margin: 5px; }
+    #headerA a .reklam .reklamDesc p {
+      font-size: 12px;
+      margin: 5px;
+      opacity: .5;
+      color: black; }
+#headerA .shares {
+  min-height: 100px;
+  border: 1px solid #e2e9e6;
+  margin-top: 10px;
+  background-color: white; }
+  #headerA .shares a {
+    text-decoration: none; }
+    #headerA .shares a img {
+      width: 40px;
+      height: 40px;
+      margin: 5px; }
+    #headerA .shares a h6 {
+      font-size: 15px;
+      display: inline-block;
+      margin: 0px;
+      color: black;
+      margin-top: -3px; }
+    #headerA .shares a p {
+      font-size: 12px;
+      color: #90949c;
+      margin-left: 0px; }
+  #headerA .shares span {
+    font-size: 12px;
+    margin: 10px;
+    color: #90949c; }
+  #headerA .shares p {
+    margin: 5px;
+    font-size: 12; }
+  #headerA .shares img {
+    width: 600px;
+    height: 355px;
+    margin: 10px 30px 10px 60px;
+    text-align: center;
+    border-radius: 5px; }
+  #headerA .shares .iframe {
+    margin: 10px 30px 10px 50px; }
+  #headerA .shares a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #7f7f7f;
+    margin: 10px 20px 10px 0; }
+    #headerA .shares a i {
+      margin-right: 5px; }
+  #headerA .shares a:hover {
+    color: #368e09; }
+  #headerA .shares h5 {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #7f7f7f;
+    margin: 5px 10px 0px 0px; }
+#headerA .messages {
+  height: 650px;
+  width: 100%;
+  background-color: white; }
+  #headerA .messages .active {
+    background-color: #368e09; }
+    #headerA .messages .active h6 {
+      color: white; }
+    #headerA .messages .active h5 {
+      color: white !important; }
+  #headerA .messages .leftMsg {
+    overflow: scroll;
+    height: 600px; }
+    #headerA .messages .leftMsg a {
+      text-decoration: none;
+      color: black; }
+      #headerA .messages .leftMsg a .recent {
+        height: 60px;
+        overflow: hidden;
+        border: 1px solid #368e09;
+        border-radius: 25px; }
+        #headerA .messages .leftMsg a .recent .profileImg {
+          width: 50px;
+          height: 50px;
+          margin-top: 5px;
+          border-radius: 100%; }
+        #headerA .messages .leftMsg a .recent h6 {
+          font-size: 15px;
+          margin-top: 5px;
+          margin-left: 5px;
+          font-weight: 500;
+          margin-top: 10px; }
+        #headerA .messages .leftMsg a .recent h5 {
+          font-size: 14px;
+          margin-left: 5px;
+          color: #90949c;
+          font-weight: 200;
+          margin-bottom: 5px;
+          opacity: .9; }
+    #headerA .messages .leftMsg a:hover {
+      color: white; }
+      #headerA .messages .leftMsg a:hover .recent {
+        background-color: #368e09; }
+        #headerA .messages .leftMsg a:hover .recent h5 {
+          color: white; }
+  #headerA .messages .rightMsg {
+    overflow: scroll;
+    height: 500px;
+    position: relative; }
+    #headerA .messages .rightMsg a {
+      text-decoration: none; }
+      #headerA .messages .rightMsg a h4 {
+        font-weight: 300;
+        font-size: 22px;
+        color: #368e09; }
+    #headerA .messages .rightMsg span {
+      color: #90949c; }
+    #headerA .messages .rightMsg .gelenSms {
+      margin-bottom: 10px;
+      margin-top: 10px; }
+      #headerA .messages .rightMsg .gelenSms img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin-top: 5px; }
+      #headerA .messages .rightMsg .gelenSms p {
+        color: white;
+        background-color: #368e09;
+        border-radius: 20px;
+        display: inline-block;
+        padding: 10px;
+        font-weight: 300; }
+    #headerA .messages .rightMsg .gedenSms {
+      padding-top: 10px;
+      font-weight: 300; }
+      #headerA .messages .rightMsg .gedenSms p {
+        color: white;
+        background-color: #368e09;
+        padding: 10px;
+        border-radius: 20px; }
+    #headerA .messages .rightMsg .sendMsg {
+      position: fixed;
+      bottom: 0px; }
+      #headerA .messages .rightMsg .sendMsg textarea {
+        resize: none;
+        height: 40px;
+        width: 655px;
+        border-radius: 15px;
+        border: 1px solid #368e09;
+        padding: 10px; }
+      #headerA .messages .rightMsg .sendMsg textarea:focus {
+        outline: none; }
+    #headerA .messages .rightMsg .send {
+      margin-bottom: 30px;
+      padding-left: 5px; }
+      #headerA .messages .rightMsg .send i {
+        font-size: 22px;
+        color: #368e09; }
+
+@media screen and (min-width: 300px) and (max-device-width: 700px) {
+  .left {
+    display: none;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.5s; }
+    .left .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px; }
+
+  .reklam {
+    display: none; }
+
+  #headerA {
+    /*transform: translateX(30deg);*/
+    margin-left: -210px; } }
+
+/*# sourceMappingURL=style.css.map */
     min-height: 680px;
     background-image: url("../../images/img1.jpg");
     background-size: cover; }
